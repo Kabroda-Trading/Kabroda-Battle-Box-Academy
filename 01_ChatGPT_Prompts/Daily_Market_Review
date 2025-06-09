@@ -1,0 +1,25 @@
+# 📅 Daily Market Review – ChatGPT Prompt Template
+
+Use this prompt every morning after the 7:30–8:00 AM CST 30-minute candle. Build your dual-path trade bias with structure and levels.
+
+## ✅ Setup Instructions:
+1. Mark your 30-minute range high/low, breakout/breakdown triggers, and trap zones
+2. Screenshot your 4H, 1H, and 15M charts
+3. Use the prompt below in ChatGPT
+
+---
+
+## 📋 Prompt to Copy:
+
+You're acting as my daily chart analyst. I will send you 3 screenshots (4H, 1H, 15M) and my 30-minute range with levels labeled.
+
+Your job:
+1. Confirm current bias — bullish, bearish, or neutral  
+2. Create a dual-path scenario:  
+   - Bullish path (what has to happen?)  
+   - Bearish path (what would flip bias?)  
+3. Flag any trap zones or overlap risk  
+4. Suggest whether today is clean or high-risk
+
+End with a clear directional statement like:  
+> “Bias: Bullish continuation above $____ — watch for trap at $____”

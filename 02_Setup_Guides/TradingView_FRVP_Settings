@@ -1,0 +1,64 @@
+# 📊 TradingView Setup – Fixed Range Volume Profile (FRVP)
+
+This guide shows how to configure and use the **Fixed Range Volume Profile (FRVP)** tool in TradingView exactly the way it’s used in the Kabroda Battle Box System.
+
+We use 3 specific FRVP pulls:
+
+- 🟦 **Weekly Volume Zone** → Based on the last completed weekly candle
+- 🟧 **24-Hour Volume Zone** → From 7:00 AM to 7:00 AM CST (session volume)
+- 🟥 **4H Setup Zone** → From 3:00 AM to 7:00 AM CST (used to prep 15M trades)
+
+---
+
+## 🛠️ How to Add the FRVP Tool
+
+1. Open your **BTC/USDT chart** on TradingView  
+2. Set the chart to the appropriate timeframe:  
+   - Use **4H** for weekly  
+   - Use **1H** or **15M** for daily/session analysis  
+3. On the top toolbar, click the **Fixed Range Volume Profile** tool  
+4. Click at the **start time**, drag to the **end time**, then click again to apply the profile
+
+---
+
+## ⚙️ FRVP Settings (Apply These Every Time)
+
+### 🔹 Input Tab:
+
+- **Row Size**: `150`
+- **Row Layout**: `Numbers`
+- **Value Area Volume**: `70`
+- **Volume**: `Up/Down + Value Area`
+
+---
+
+### 🎨 Style Tab:
+
+- ✅ Enable:
+  - **Value Area High (VAH)** – Red dashed line
+  - **Point of Control (POC)** – Yellow solid line
+  - **Value Area Low (VAL)** – Blue dashed line
+
+- Customize colors:
+  - VAH: 🔴 Red  
+  - POC: 🟡 Yellow  
+  - VAL: 🔵 Blue
+
+- Uncheck or hide other visuals (histogram optional)
+
+---
+
+## 📏 When to Use “Extend Right”
+
+| Zone Type | Time Range | Extend Right? |
+|-----------|------------|----------------|
+| 🟦 Weekly Volume Zone | Last weekly candle | ✅ Yes |
+| 🟧 24-Hour Volume Zone | 7:00 AM → 7:00 AM CST | ❌ No |
+| 🟥 4H Setup Zone | 3:00 AM → 7:00 AM CST | ❌ No |
+
+> 💡 This keeps your chart clean and lets you clearly see each session’s volume structure.
+
+---
+
+## 🧱 How to Organize in Your Object Tree
+

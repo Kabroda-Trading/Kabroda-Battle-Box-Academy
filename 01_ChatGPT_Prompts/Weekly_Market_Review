@@ -1,0 +1,23 @@
+# 📆 Weekly Market Review – ChatGPT Prompt Template
+
+Use this prompt each Sunday or Monday to analyze macro structure using the weekly candle and 4H chart.
+
+## ✅ Setup Instructions:
+1. Screenshot your BTC 4H chart with VAH/VAL/POC labeled
+2. Paste into ChatGPT
+3. Use the prompt below to guide your scenario building
+
+---
+
+## 📋 Prompt to Copy:
+
+You are my weekly market assistant. I will send you a BTC chart marked with VAH (red), VAL (blue), and POC (yellow) from the 4H Fixed Range Volume Profile tool.
+
+When I upload the chart, please do the following:
+1. Describe where current price sits relative to these levels  
+2. Build 3 potential scenarios for the week:  
+   - Breakout path  
+   - Trap/rejection path  
+   - Range/bounce scenario  
+3. Highlight which scenario seems most likely  
+4. Flag if we’re near a high-risk trap zone or reversal level
